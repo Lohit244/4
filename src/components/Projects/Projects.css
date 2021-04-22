@@ -14,6 +14,7 @@
 	transition: 0.5s ease-in-out;
 	color: rgba(0, 0, 0, 0);
     background-position: center;
+	background-position: center;
 }
 .gallery-item:hover {
 	transition: 0.5s ease-in-out;
@@ -24,6 +25,7 @@
 	background: url("../../res/img1.jpg");
     background-size: 100%;
 }
+
 #img2 {
 	background: url("../../res/img2.jpg");
     background-size: 100%;
@@ -51,6 +53,38 @@
 #img8 {
 	background: url("../../res/img8.png");
     background-size: 100%;
+}
+#img1:hover {
+    background-size: 125%;
+background-position: center;
+}
+#img2:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img3:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img4:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img5:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img6:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img7:hover{
+	background-size: 125%;
+background-position: center;
+}
+#img8:hover{
+	background-size: 125%;
+background-position: center;
 }
 .projects-container{
     min-height: 100vh;
