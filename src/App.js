@@ -102,7 +102,7 @@ function App() {
 				<div className="App-header">
 					<div className="big-text">I am Lohitaksha Malhotra.</div>
 					<div className="small-text">
-						I am a mechanical engineering student (1st Year) at BIT mesra. I
+						I am a mechanical engineering student (1st Year) at BIT Mesra. I
 						like to dabble in various parts of frontend development and like to
 						learn about various technologies. I usually look into these or just
 						play some games during my free time
