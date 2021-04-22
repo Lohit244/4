@@ -1,0 +1,107 @@
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 120vh;
+}
+#about-text {
+	text-align: justify;
+	font-weight: lighter;
+	margin-top: 5%;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+
+#hr2 {
+	height: 5px;
+	border: black;
+	background: linear-gradient(
+		90deg,
+		#2200ff 0%,
+		#00ff40 26%,
+		rgb(255, 0, 0) 91%
+	);
+}
+#my-img {
+	height: 20rem;
+	padding-left: 3rem;
+	background-position: center;
+	background-size: cover;
+}
+
+.about-header {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #696868;
+    transition: 0.5s ease-in-out;
+	border-radius: 1rem;
+	width: 40%;
+	margin-bottom: 5%;
+	/* color: black; */
+	padding-top: 5px;
+	padding-bottom: 15px;
+	align-items: center;
+	justify-items: center;
+	border: 0.6rem black solid;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+.about-header:hover{
+    background-color: #818181;
+    transition: 0.5s ease-in-out;
+}
+.intrests-container {
+	background-color: #0072a3;
+    transition: 0.5s ease-in-out;
+	/* color: black; */
+	margin-left: 29%;
+	margin-right: 29%;
+	border-radius: 5%;
+	border: 0.6rem black solid;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+.intrests-container:hover {
+	background-color: #0383b9;
+    transition: 0.5s ease-in-out;
+}
+.skills-container {
+	background-color: #b40202;
+    transition: 0.5s ease-in-out;
+	/* color: black; */
+	margin-left: 29%;
+	margin-right: 29%;
+	border-radius: 5%;
+	border: 0.6rem black solid;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+.skills-container:hover{
+    background-color: #ee0505;
+    transition: 0.5s ease-in-out;
+}
+.skill {
+	margin-top: 5%;
+	padding-top: 2.5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 2.5%;
+	/* width: 70%; */
+}
+.topic {
+	margin-top: 5%;
+	padding-top: 2.5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 2.5%;
+	/* width: 90%; */
+}
+.intrests {
+	padding-bottom: 5%;
+}
+#edu{
+    font-size: 4rem;
+    font-weight: bold;
+}
