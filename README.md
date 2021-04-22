@@ -11,4 +11,4 @@ $ Had some react-router components which broke the website when deploying to git
 - I went for comic like feel throughout the project and hopefully that shows.
 - Other than that, this as a fun project to work on and i would put more time into it but i have stuff happening for the remaining majority of the week so nothing too big maybe a couple of minor changes.
 - I will focus on more of what react offers for now , and at the same time getting more comfortable with css because css is very iffy
-- Here is the (Course)[https://www.udemy.com/course/react-the-complete-guide-incl-redux/] btw
+- Here is the [Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) btw
