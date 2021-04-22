@@ -87,7 +87,7 @@ function App() {
 					<div className="idk">
 						<img id="alertimg" src={alertimg} alt="!ALERT - "></img>
 						Please use landscape mode and turn on desktop mode
-						if you're on mobile. This is a website built during Lead 2.0 at BIT mesra while i am
+						if you're on mobile. This is a website built during Lead 2.0 at BIT Mesra while i am
 						still learning a lot of things.
 						<button
 							id="x"
