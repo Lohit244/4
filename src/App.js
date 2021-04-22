@@ -86,9 +86,9 @@ function App() {
 				{!alertRead && (
 					<div className="idk">
 						<img id="alertimg" src={alertimg} alt="!ALERT - "></img>
-						Please use landscape mode and turn on desktop mode
-						if you're on mobile. This is a website built during Lead 2.0 at BIT Mesra while i am
-						still learning a lot of things.
+						Please use landscape mode and turn on desktop mode if you're on
+						mobile. This is a website built during Lead 2.0 at BIT Mesra while i
+						am still learning a lot of things.
 						<button
 							id="x"
 							onClick={() => {
@@ -116,8 +116,8 @@ function App() {
 			<About />
 			<Projects />
 			<div>
-					<hr id="Connect-Hr"></hr>
-				</div>
+				<hr id="Connect-Hr"></hr>
+			</div>
 			<ConnectBar />
 		</div>
 	)
