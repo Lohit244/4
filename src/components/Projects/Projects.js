@@ -9,7 +9,7 @@ function Projects(){
         </div>
         <Parallax bgImage = {projectsBackground} strength = {300}>
         <div className = "projects-container">
-            *These are just random placeholder images and text instead of project links, you get the idea
+            *These are just random placeholder images and text instead of project links because i don't have any projects, you get the idea
             <div className = "gallery">
                 <div className = "gallery-item" id = "img1">Image1</div>
                 <div className = "gallery-item" id = "img2">Image2</div>
