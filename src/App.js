@@ -6,7 +6,14 @@ import { Parallax } from "react-parallax"
 import { useEffect, useState } from "react"
 import alertimg from "./res/alert.png"
 import Projects from "./components/Projects/Projects"
+import LoadingScreen from 'react-loading-screen'
 function App() {
+	const [isLoading , setIsLoading] = useState(true)
+	useEffect(() =>{
+		setTimeout(() =>{
+			setIsLoading(false)
+		},1000)
+	} , [])
 	const [coolText, setCoolText] = useState("")
 	const [i, setI] = useState(0)
 	useEffect(() => {
@@ -81,6 +88,13 @@ function App() {
 
 	const [alertRead, setAlertRead] = useState(false)
 	return (
+		<LoadingScreen
+    loading={isLoading}
+    bgColor='#410000'
+    spinnerColor='#9ee5f8'
+    textColor='#FFFFFF'
+    text='Loading... Please Scroll a bit on loading in'
+  	> 
 		<div className="App">
 			<Parallax bgImage={headerBackground} strength={300}>
 				{!alertRead && (
@@ -120,6 +134,7 @@ function App() {
 			</div>
 			<ConnectBar />
 		</div>
+		</LoadingScreen>
 	)
 }
 
