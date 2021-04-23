@@ -11,7 +11,7 @@ function Projects(){
         <div className = "projects-container">
             *These are just random placeholder images and text instead of project links because i don't have any projects, you get the idea
             <div className = "gallery">
-                <div className = "gallery-item" id = "img1">Image1</div>
+                <div className = "gallery-item" id = "img1"><a href = "https://github.com/Lohit244/4/tree/master">Portfolio</a></div>
                 <div className = "gallery-item" id = "img2">Image2</div>
                 <div className = "gallery-item" id = "img3">Image3</div>
                 <div className = "gallery-item" id = "img4">Image4</div>
