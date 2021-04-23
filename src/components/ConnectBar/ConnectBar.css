@@ -12,11 +12,11 @@
     width: 40%;
 }
 .Connect-Image{
-    height: 6rem;
+    height: 8vw;
     transition: 0.5s ease-in-out;
 }
 .Connect-Image:hover{
-    height: 8rem;
+    height: 10vw;
     animation: rotation 2s infinite ease-in-out;
     transition: 0.1s ease-in-out;
 }
@@ -33,11 +33,9 @@
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
 		-1px -1px 0 #000;
 }
-#hellotext{
-    width: 30%;
-}
+
 #connect-button{
-    font-size: 3rem;
+    font-size: 4vw;
     border: 0.3rem black solid;
     color: white;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
@@ -70,7 +68,9 @@ u{
 #texthello{
     margin-left: 20%;
     margin-right: 20%;
+    width: 60%;
 }
+
 @keyframes rotation {
     from {
       transform: rotate(0deg);

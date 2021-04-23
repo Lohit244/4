@@ -42,7 +42,7 @@ function About() {
 					Mechanical Engineering - BIT Mesra (Currently Persuing)
 				</div>
 			</div>
-			<Parallax bgImage={footer} strength={300}>
+			<Parallax bgImage={footer} strength={500}>
 				<div className="intrests">
 					<div className="about-header">
 						<h1 id="skillHeading">My Skills</h1>I am very new so i dont have

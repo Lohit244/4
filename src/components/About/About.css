@@ -24,7 +24,8 @@
 	);
 }
 #my-img {
-	height: 20rem;
+	max-height: 20rem;
+	max-width: 100%;
 	padding-left: 3rem;
 	background-position: center;
 	background-size: cover;
@@ -37,7 +38,7 @@
 	background-color: #696868;
     transition: 0.5s ease-in-out;
 	border-radius: 1rem;
-	width: 40%;
+	width: 60%;
 	margin-bottom: 5%;
 	/* color: black; */
 	padding-top: 5px;
@@ -56,9 +57,8 @@
 	background-color: #0072a3;
     transition: 0.5s ease-in-out;
 	/* color: black; */
-	margin-left: 29%;
-	margin-right: 29%;
-	border-radius: 5%;
+	margin-left: 13%;
+	margin-right: 13%;
 	border: 0.6rem black solid;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
 		-1px -1px 0 #000;
@@ -71,9 +71,8 @@
 	background-color: #b40202;
     transition: 0.5s ease-in-out;
 	/* color: black; */
-	margin-left: 29%;
-	margin-right: 29%;
-	border-radius: 5%;
+	margin-left: 13%;
+	margin-right: 13%;
 	border: 0.6rem black solid;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
 		-1px -1px 0 #000;
