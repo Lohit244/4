@@ -3,6 +3,7 @@ import ConnectBar from "./components/ConnectBar/ConnectBar"
 import About from "./components/About/About"
 import headerBackground from "./res/429540.jpg"
 import { Parallax } from "react-parallax"
+import loadingGif from "./res/logo.gif"
 import { useEffect, useState } from "react"
 import alertimg from "./res/alert.png"
 import Projects from "./components/Projects/Projects"
@@ -12,7 +13,7 @@ function App() {
 	useEffect(() =>{
 		setTimeout(() =>{
 			setIsLoading(false)
-		},1000)
+		},2000)
 	} , [])
 	const [coolText, setCoolText] = useState("")
 	const [i, setI] = useState(0)
@@ -93,7 +94,8 @@ function App() {
     bgColor='#410000'
     spinnerColor='#9ee5f8'
     textColor='#FFFFFF'
-    text='Loading... Please Scroll a bit on loading in'
+	logoSrc={loadingGif}
+    text='Please Scroll A Bit On Loading In'
   	> 
 		<div className="App">
 			<Parallax bgImage={headerBackground} strength={300}>
