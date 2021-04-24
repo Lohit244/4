@@ -33,8 +33,8 @@ function About() {
 				</div>
 		</Parallax>
 				
-				<div id="about-text">
-					<h1 id = "edu">My Education</h1>
+				<div className = "small-text">
+					<h1 className = "big-text">My Education</h1>
 					10<sup>th</sup>- CBSE Board
 					<br />
 					12<sup>th</sup> - PCM - CBSE Board - 87.2%

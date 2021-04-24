@@ -18,12 +18,12 @@ html {
   /* color: #22192C; */
 }
 .big-text {
-	font-size: 3rem;
+	font-size: calc(2vw + 12px);
 	font-weight: bold;
 	transition: 0.5s ease-in-out;
 }
 .big-text:hover {
-	font-size: 5rem;
+	font-size: calc(3vw + 18px);
 	max-width: 100%;
 	transition: 0.5s ease-in-out;
 }
@@ -46,4 +46,12 @@ html {
 }
 #arrow{
   transform: rotateX(180deg);
+}
+#yooloo{
+	margin-top: 6%;
+}
+.notsobig-text{
+	padding-top: 3%;
+	font-size: calc(2vw + 12px);
+	font-weight: bold;
 }

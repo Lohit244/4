@@ -8,8 +8,8 @@
 	align-items: center;
 	justify-content: center;
     background-size: 100%;
-	height: 20vw;
-    width:  20vw;
+	height: calc(10vw + 18px);
+    width:  calc(10vw + 18px);
     font-weight: bold;
 	transition: 0.5s ease-in-out;
 	color: rgba(0, 0, 0, 0);
@@ -21,8 +21,8 @@
 	align-items: center;
 	justify-content: center;
     background-size: 100%;
-	height: 20vw;
-    width:  20vw;
+	height: calc(10vw + 20px);
+    width:  calc(10vw + 20px);
     font-weight: bold;
 	transition: 0.5s ease-in-out;
 	color: rgba(0, 0, 0, 0);
@@ -122,4 +122,9 @@ background-position: center;
     padding-bottom: 10vh;
     font-size: 2vh;
     transition: 0.2s ease-in-out;
+}
+#project-text{
+	font-size: calc(1vw + 8px);
+	margin-left: 5%;
+	margin-right: 5%;
 }

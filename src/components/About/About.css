@@ -5,13 +5,6 @@
 	flex-direction: column;
 	min-height: 120vh;
 }
-#about-text {
-	text-align: justify;
-	font-weight: lighter;
-	margin-top: 5%;
-	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
-		-1px -1px 0 #000;
-}
 
 #hr2 {
 	height: 5px;
@@ -70,7 +63,6 @@
 .skills-container {
 	background-color: #b40202;
     transition: 0.5s ease-in-out;
-	/* color: black; */
 	margin-left: 13%;
 	margin-right: 13%;
 	border: 0.6rem black solid;
@@ -87,7 +79,11 @@
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-bottom: 2.5%;
+	font-size: calc(0.6vw + 12px);
 	/* width: 70%; */
+}
+.skill h1{
+	font-size: calc(1vw + 20px);
 }
 .topic {
 	margin-top: 5%;
@@ -95,12 +91,12 @@
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-bottom: 2.5%;
+	font-size: calc(0.6vw + 12px);
 	/* width: 90%; */
+}
+.topic h1{
+	font-size: calc(1vw + 20px);
 }
 .intrests {
 	padding-bottom: 5%;
-}
-#edu{
-    font-size: 4rem;
-    font-weight: bold;
 }

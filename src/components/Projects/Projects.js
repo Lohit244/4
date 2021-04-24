@@ -9,7 +9,7 @@ function Projects(){
         </div>
         <Parallax bgImage = {projectsBackground} strength = {300}>
         <div className = "projects-container">
-            *These are just random placeholder images and text instead of project links because i don't have any projects, you get the idea
+            <p className = "small-text">*These are just random placeholder images and text instead of project links because i don't have any projects, you get the idea</p>
             <div className = "gallery">
                 <div className = "gallery-item" id = "img1"><a href = "https://github.com/Lohit244/4/tree/master">Portfolio</a></div>
                 <div className = "gallery-item" id = "img2">Image2</div>
