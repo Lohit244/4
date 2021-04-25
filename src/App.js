@@ -3,11 +3,11 @@ import React from "react"
 import ConnectBar from "./components/ConnectBar/ConnectBar"
 import About from "./components/About/About"
 import loadingGif from "./res/logo.gif"
+import Landing from "./components/Landing/Landing.js"
 import { useEffect, useState } from "react"
 import Projects from "./components/Projects/Projects"
 import LoadingScreen from "react-loading-screen"
 import SkillIntrest from "./components/SkillIntrest/SkillIntrest"
-import Landing from "./components/Landing/Landing.js"
 function App() {
 	const [isLoading, setIsLoading] = useState(true)
 	useEffect(() => {
